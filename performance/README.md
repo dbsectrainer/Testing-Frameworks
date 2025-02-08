@@ -18,237 +18,286 @@ A comprehensive guide to performance testing tools and frameworks.
    - Resource Usage
    - Concurrency
    - Reliability
+   - Infrastructure Performance
+
+### Infrastructure Performance
+1. **Cloud Performance**
+   - AWS Performance Testing
+     - EC2 Performance
+     - Lambda Performance
+     - RDS Performance
+   - Azure Performance Testing
+     - VM Performance
+     - Functions Performance
+     - SQL Performance
+   - GCP Performance Testing
+     - Compute Performance
+     - Cloud Functions
+     - Cloud SQL
+
+2. **Container Performance**
+   - Docker Performance
+     - Container Metrics
+     - Resource Limits
+     - Network Performance
+   - Kubernetes Performance
+     - Cluster Performance
+     - Pod Performance
+     - Service Performance
+   - Service Mesh Performance
+     - Istio Performance
+     - Linkerd Performance
+     - Network Latency
 
 ### Testing Tools
-1. **JMeter**
-   - Test Plans
-   - Thread Groups
-   - Samplers
-   - Listeners
-   - Assertions
+1. **Infrastructure Tools**
+   - serverless-artillery
+     - Lambda Testing
+     - Function Testing
+     - API Testing
+   - k6-operator
+     - Kubernetes Testing
+     - Container Testing
+     - Cloud Testing
+   - Cloud Provider Tools
+     - AWS Load Testing
+     - Azure Load Testing
+     - GCP Load Testing
 
-2. **K6**
-   - Scripts
-   - Scenarios
-   - Metrics
-   - Thresholds
-   - Extensions
+2. **Container Tools**
+   - cAdvisor
+     - Container Metrics
+     - Resource Usage
+     - Performance Data
+   - Prometheus Node Exporter
+     - System Metrics
+     - Container Metrics
+     - Custom Metrics
 
-3. **Other Tools**
-   - Artillery
-   - Gatling
-   - LoadRunner
-   - Locust
-   - Apache Bench
+3. **Traditional Tools**
+   - JMeter
+     - Test Plans
+     - Thread Groups
+     - Samplers
+     - Listeners
+   - K6
+     - Scripts
+     - Scenarios
+     - Metrics
+     - Cloud Integration
 
 ## 🛠 Development Tools
 
-### Testing Tools
-1. **Load Testing Tools**
-   - JMeter
-   - K6
-   - Artillery
-   - Gatling
-   - LoadRunner
-
-2. **Monitoring Tools**
-   - Grafana
+### Monitoring Tools
+1. **Infrastructure Monitoring**
    - Prometheus
-   - New Relic
+     - Metrics Collection
+     - Alert Rules
+     - PromQL
+   - Grafana
+     - Dashboards
+     - Visualizations
+     - Alerts
+   - Cloud Native Tools
+     - CloudWatch
+     - Azure Monitor
+     - Stackdriver
+
+2. **Container Monitoring**
+   - cAdvisor
+   - Prometheus
    - Datadog
+   - New Relic
    - Dynatrace
 
-### Integration Tools
-1. **CI/CD Integration**
-   - GitHub Actions
-   - Jenkins
-   - CircleCI
-   - Travis CI
-   - GitLab CI
+### Cost Performance Tools
+1. **Cloud Cost Analysis**
+   - AWS Cost Explorer
+   - Azure Cost Management
+   - GCP Cost Tools
+   - Kubecost
+   - CloudHealth
 
-2. **Reporting Tools**
-   - JMeter Reports
-   - K6 Dashboard
-   - Grafana
-   - Custom Reports
-   - Analytics
+2. **Resource Optimization**
+   - AWS Compute Optimizer
+   - Azure Advisor
+   - GCP Recommender
+   - Kubernetes Resource Optimization
+   - Container Right-sizing
 
 ## 📈 Testing Applications
 
 ### Framework Setup
-1. **JMeter Setup**
-   - Installation
-   - Test Plan Structure
-   - Thread Groups
-   - Listeners
-   - Plugins
+1. **Infrastructure Setup**
+   - Cloud Environment Setup
+   - Container Environment Setup
+   - Monitoring Setup
+   - Cost Analysis Setup
+   - Performance Baselines
 
-2. **K6 Setup**
-   - Installation
-   - Script Structure
-   - Scenarios
-   - Metrics
-   - Cloud Integration
+2. **Tool Integration**
+   - CI/CD Integration
+   - Monitoring Integration
+   - Alert Integration
+   - Cost Integration
+   - Reporting Integration
 
 ### Testing Projects
-1. **Project Types**
-   - Web Applications
-   - APIs
-   - Databases
-   - Microservices
-   - Message Queues
+1. **Infrastructure Projects**
+   - Cloud Performance Tests
+   - Container Performance Tests
+   - Network Performance Tests
+   - Storage Performance Tests
+   - Database Performance Tests
 
-2. **Project Features**
-   - Load Tests
-   - Stress Tests
-   - Endurance Tests
-   - Spike Tests
-   - Scalability Tests
+2. **Cost Optimization**
+   - Resource Usage Tests
+   - Scaling Tests
+   - Cost Analysis
+   - Efficiency Tests
+   - Optimization Tests
 
 ## 🎓 Learning Resources
 
 ### Documentation
-- [JMeter Documentation](https://jmeter.apache.org/usermanual/index.html)
-- [K6 Documentation](https://k6.io/docs/)
-- [Artillery Documentation](https://artillery.io/docs/)
-- [Gatling Documentation](https://gatling.io/docs/current/)
-- [LoadRunner Documentation](https://admhelp.microfocus.com/lr/)
+- [AWS Performance Testing](https://docs.aws.amazon.com/performance/)
+- [Azure Load Testing](https://docs.microsoft.com/azure/load-testing/)
+- [GCP Performance Testing](https://cloud.google.com/solutions/performance-testing)
+- [Kubernetes Performance](https://kubernetes.io/docs/concepts/cluster-administration/monitoring/)
+- [Container Performance](https://docs.docker.com/config/containers/resource_constraints/)
 
 ### Books & Guides
-- "Performance Testing with JMeter"
-- "Web Performance Testing"
-- "Load Testing Best Practices"
-- "Performance Engineering Guide"
+- "Cloud Performance Testing"
+- "Container Performance Optimization"
+- "Infrastructure Performance Engineering"
+- "Cost Optimization Strategies"
+- "Cloud Native Performance"
 
 ### Online Courses
-- [JMeter Training](https://www.udemy.com/)
-- [K6 Performance Testing](https://k6.io/learn/)
-- [Performance Engineering](https://www.coursera.org/)
-- [Load Testing Fundamentals](https://www.pluralsight.com/)
+- [AWS Performance Testing](https://aws.amazon.com/training/)
+- [Azure Load Testing](https://learn.microsoft.com/azure/)
+- [Kubernetes Performance](https://kubernetes.io/training/)
+- [Container Optimization](https://www.docker.com/training/)
+- [Cost Optimization](https://aws.amazon.com/training/cost-optimization/)
 
 ## 🚀 Project Examples
 
-### Basic Projects
-1. **Load Testing**
-   - Web Application
-   - REST API
-   - Database
-   - File Upload
-   - Authentication
-
-2. **Performance Testing**
-   - Response Time
-   - Throughput
-   - Resource Usage
-   - Scalability
-   - Reliability
-
-### Advanced Projects
-1. **Complex Testing**
-   - Microservices
-   - Message Queues
-   - Real-time Systems
-   - Distributed Systems
-   - Cloud Services
-
-2. **Specialized Testing**
-   - Mobile Performance
-   - Browser Performance
+### Infrastructure Projects
+1. **Cloud Testing**
+   - Compute Performance
+   - Storage Performance
    - Network Performance
    - Database Performance
-   - Cache Performance
+   - Serverless Performance
+
+2. **Container Testing**
+   - Docker Performance
+   - Kubernetes Performance
+   - Service Mesh Performance
+   - Registry Performance
+   - Orchestration Performance
+
+### Cost Projects
+1. **Resource Optimization**
+   - Compute Optimization
+   - Storage Optimization
+   - Network Optimization
+   - Database Optimization
+   - Container Optimization
+
+2. **Cost Analysis**
+   - Usage Analysis
+   - Performance Cost
+   - Scaling Cost
+   - Operation Cost
+   - Optimization ROI
 
 ## 🔧 Best Practices
 
-### Testing Practices
-1. **Test Design**
-   - Realistic Scenarios
-   - Proper Load Models
-   - Data Management
-   - Error Handling
-   - Monitoring
-
-2. **Testing Patterns**
+### Infrastructure Practices
+1. **Performance Testing**
    - Baseline Testing
-   - Soak Testing
-   - Spike Testing
-   - Capacity Testing
+   - Load Testing
+   - Stress Testing
    - Failover Testing
+   - Recovery Testing
 
-### Performance Practices
-1. **Test Optimization**
-   - Resource Management
-   - Thread Management
-   - Data Management
-   - Network Optimization
-   - Result Analysis
+2. **Cost Optimization**
+   - Resource Planning
+   - Usage Monitoring
+   - Cost Tracking
+   - Optimization Strategy
+   - ROI Analysis
 
-2. **Monitoring**
-   - System Metrics
+### Monitoring Practices
+1. **Metrics Collection**
+   - Infrastructure Metrics
+   - Container Metrics
    - Application Metrics
-   - Network Metrics
-   - Business Metrics
+   - Cost Metrics
    - Custom Metrics
+
+2. **Analysis**
+   - Performance Analysis
+   - Cost Analysis
+   - Trend Analysis
+   - Optimization Analysis
+   - ROI Analysis
 
 ## 🌐 Tool Integration
 
-### Popular Integrations
-1. **Monitoring Tools**
-   - Grafana
-   - Prometheus
-   - ELK Stack
-   - New Relic
-   - Datadog
+### Cloud Integration
+1. **AWS Tools**
+   - CloudWatch
+   - X-Ray
+   - Cost Explorer
+   - Compute Optimizer
+   - Performance Insights
 
-2. **Cloud Platforms**
-   - AWS CloudWatch
-   - Azure Monitor
-   - Google Operations
-   - Kubernetes
-   - Docker Stats
+2. **Azure Tools**
+   - Monitor
+   - Application Insights
+   - Cost Management
+   - Advisor
+   - Log Analytics
+
+3. **GCP Tools**
+   - Operations
+   - Trace
+   - Monitoring
+   - Cost Management
+   - Recommender
 
 ## 📦 Additional Resources
 
-### Development Tools
-- Test Generators
-- Data Generators
-- Result Analyzers
+### Infrastructure Tools
+- Performance Testing Tools
 - Monitoring Tools
+- Cost Analysis Tools
+- Optimization Tools
 - Reporting Tools
 
 ### Community Resources
 - Performance Forums
-- Developer Communities
+- Cloud Communities
+- Container Communities
+- Cost Optimization Groups
 - Technical Blogs
-- Research Papers
-- Conference Talks
-
-### Infrastructure
-1. **Cloud Services**
-   - Load Generators
-   - Test Environments
-   - Monitoring Services
-   - Analytics Services
-   - Reporting Services
-
-2. **Monitoring Tools**
-   - Performance Monitoring
-   - Resource Monitoring
-   - Network Monitoring
-   - Application Monitoring
-   - Business Monitoring
 
 ### Performance Metrics
-1. **System Metrics**
-   - CPU Usage
-   - Memory Usage
-   - Disk I/O
-   - Network I/O
-   - Thread Count
+1. **Infrastructure Metrics**
+   - Compute Metrics
+   - Storage Metrics
+   - Network Metrics
+   - Container Metrics
+   - Cost Metrics
 
-2. **Application Metrics**
-   - Response Time
-   - Throughput
-   - Error Rate
-   - Concurrency
-   - Saturation Point
+2. **Analysis Tools**
+   - Performance Analysis
+   - Cost Analysis
+   - Trend Analysis
+   - Optimization Analysis
+   - ROI Analysis
+
+---
+Last Updated: February 2025

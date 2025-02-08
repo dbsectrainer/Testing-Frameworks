@@ -18,6 +18,7 @@ A comprehensive guide to API testing frameworks and tools.
    - Contract Testing
    - Load Testing
    - Security Testing
+   - Infrastructure Testing
 
 ### Testing Frameworks
 1. **Postman**
@@ -26,6 +27,7 @@ A comprehensive guide to API testing frameworks and tools.
    - Scripts
    - Monitors
    - Newman
+   - Infrastructure Testing
 
 2. **REST Assured**
    - Request Building
@@ -33,13 +35,53 @@ A comprehensive guide to API testing frameworks and tools.
    - Authentication
    - JSON Path
    - XML Path
+   - Infrastructure Integration
 
-3. **Other Frameworks**
-   - Supertest
-   - Karate
-   - SoapUI
-   - JMeter
-   - K6
+3. **Cloud API Testing**
+   - AWS API Gateway Testing
+     - Integration Tests
+     - Stage Deployments
+     - Usage Plans
+     - API Keys
+   - Azure API Management
+     - Policy Testing
+     - Security Testing
+     - Performance Testing
+   - GCP API Testing
+     - Cloud Endpoints
+     - API Security
+     - Load Testing
+
+4. **Service Mesh Testing**
+   - Istio
+     - Traffic Management
+     - Security Policies
+     - Observability
+   - Linkerd
+     - Service Discovery
+     - Load Balancing
+     - Security
+
+5. **Container API Testing**
+   - Docker API Testing
+   - Kubernetes API Testing
+   - Container Registry APIs
+   - Service Discovery Testing
+
+### Infrastructure Integration
+1. **API Gateway Testing**
+   - AWS API Gateway
+   - Azure API Management
+   - Kong
+   - Tyk
+   - Apigee
+
+2. **Service Mesh Integration**
+   - Istio
+   - Linkerd
+   - Consul
+   - AWS App Mesh
+   - Kuma
 
 ## 🛠 Development Tools
 
@@ -50,13 +92,30 @@ A comprehensive guide to API testing frameworks and tools.
    - Supertest
    - Karate
    - SoapUI
+   - 42Crunch
+   - APISec
 
-2. **Helper Libraries**
-   - Chai HTTP
-   - Axios
-   - Got
-   - Request
-   - Fetch
+2. **Infrastructure Tools**
+   - Terraform API Testing
+   - CloudFormation API Testing
+   - Kubernetes API Testing
+   - Docker API Testing
+   - Service Mesh Testing
+
+### Security Tools
+1. **API Security Testing**
+   - 42Crunch
+   - APISec
+   - OWASP ZAP
+   - Burp Suite
+   - Astra
+
+2. **Infrastructure Security**
+   - AWS WAF Testing
+   - Azure WAF Testing
+   - Cloud Security Testing
+   - Container Security
+   - Network Security
 
 ### Integration Tools
 1. **CI/CD Integration**
@@ -65,6 +124,8 @@ A comprehensive guide to API testing frameworks and tools.
    - CircleCI
    - Travis CI
    - GitLab CI
+   - ArgoCD
+   - Flux
 
 2. **Reporting Tools**
    - Newman Reporter
@@ -72,6 +133,7 @@ A comprehensive guide to API testing frameworks and tools.
    - ExtentReports
    - Custom Reports
    - Analytics
+   - Infrastructure Metrics
 
 ## 📈 Testing Applications
 
@@ -82,13 +144,14 @@ A comprehensive guide to API testing frameworks and tools.
    - Test Scripts
    - Pre-request Scripts
    - Newman Setup
+   - Infrastructure Tests
 
-2. **REST Assured Setup**
-   - Project Structure
-   - Dependencies
-   - Base Classes
-   - Utilities
-   - Test Configuration
+2. **Cloud API Setup**
+   - AWS API Gateway
+   - Azure API Management
+   - GCP Cloud Endpoints
+   - Service Mesh Configuration
+   - Security Testing
 
 ### Testing Projects
 1. **Project Types**
@@ -97,66 +160,70 @@ A comprehensive guide to API testing frameworks and tools.
    - SOAP Services
    - Microservices
    - WebSockets
+   - Infrastructure APIs
 
-2. **Project Features**
-   - Authentication
-   - Data Validation
-   - Error Handling
-   - Performance
-   - Security
+2. **Infrastructure Features**
+   - API Gateway Testing
+   - Service Mesh Testing
+   - Container API Testing
+   - Cloud Provider APIs
+   - Security Testing
 
 ## 🎓 Learning Resources
 
 ### Documentation
 - [Postman Documentation](https://learning.postman.com/docs/)
 - [REST Assured Documentation](https://rest-assured.io/)
-- [Supertest Documentation](https://github.com/visionmedia/supertest)
-- [Karate Documentation](https://github.com/karatelabs/karate)
-- [SoapUI Documentation](https://www.soapui.org/docs/)
+- [AWS API Gateway Testing](https://docs.aws.amazon.com/apigateway/)
+- [Azure API Management](https://docs.microsoft.com/azure/api-management/)
+- [Istio Testing](https://istio.io/latest/docs/tasks/testing-integration/)
+- [42Crunch Documentation](https://docs.42crunch.com/)
 
 ### Books & Guides
 - "API Testing Fundamentals"
-- "Postman: The Complete Guide"
-- "REST Assured in Practice"
-- "Contract Testing Patterns"
+- "Infrastructure API Testing"
+- "Service Mesh in Practice"
+- "Cloud API Security"
+- "Container API Testing"
 
 ### Online Courses
 - [API Testing with Postman](https://www.postman.com/courses/)
-- [REST Assured Masterclass](https://testautomationu.applitools.com/)
-- [API Testing Fundamentals](https://www.udemy.com/)
-- [Contract Testing](https://pactflow.io/blog/categories/learning/)
+- [AWS API Gateway Workshop](https://workshops.aws/)
+- [Azure API Management Training](https://docs.microsoft.com/learn/)
+- [Service Mesh Fundamentals](https://learn.istio.io/)
+- [Infrastructure API Testing](https://www.udemy.com/)
 
 ## 🚀 Project Examples
 
-### Basic Projects
-1. **API Testing**
-   - CRUD Operations
-   - Authentication
-   - File Upload/Download
-   - Error Scenarios
-   - Data Validation
+### Infrastructure Projects
+1. **Cloud API Testing**
+   - AWS API Gateway Tests
+   - Azure API Management Tests
+   - GCP Cloud Endpoints Tests
+   - Multi-Cloud API Tests
+   - Hybrid Cloud Tests
 
-2. **Integration Testing**
-   - Service Integration
-   - Database Integration
-   - Cache Integration
-   - Queue Integration
-   - External Services
+2. **Container API Testing**
+   - Docker API Tests
+   - Kubernetes API Tests
+   - Service Mesh Tests
+   - Registry API Tests
+   - Orchestration Tests
 
-### Advanced Projects
-1. **Complex Testing**
-   - Microservices Testing
-   - GraphQL APIs
-   - WebSocket Testing
-   - Event-Driven APIs
-   - Streaming APIs
+### Security Projects
+1. **API Security Testing**
+   - Authentication Tests
+   - Authorization Tests
+   - Rate Limiting Tests
+   - WAF Testing
+   - Security Scanning
 
-2. **Performance Testing**
-   - Load Testing
-   - Stress Testing
-   - Spike Testing
-   - Endurance Testing
-   - Scalability Testing
+2. **Infrastructure Security**
+   - Gateway Security
+   - Service Mesh Security
+   - Container Security
+   - Network Security
+   - Compliance Testing
 
 ## 🔧 Best Practices
 
@@ -166,14 +233,14 @@ A comprehensive guide to API testing frameworks and tools.
    - Reusable Scripts
    - Environment Management
    - Data Management
-   - Utilities
+   - Infrastructure Tests
 
-2. **Testing Patterns**
-   - Contract Testing
-   - Data-Driven Testing
-   - Behavior Testing
-   - Security Testing
-   - Performance Testing
+2. **Infrastructure Patterns**
+   - API Gateway Patterns
+   - Service Mesh Patterns
+   - Security Patterns
+   - Monitoring Patterns
+   - Deployment Patterns
 
 ### Performance Practices
 1. **Test Optimization**
@@ -181,59 +248,61 @@ A comprehensive guide to API testing frameworks and tools.
    - Data Management
    - Resource Cleanup
    - Error Handling
-   - Reporting
+   - Infrastructure Scaling
 
 2. **Reliability**
    - Stable Tests
    - Retry Mechanisms
    - Timeout Handling
    - Error Recovery
-   - Logging
+   - Infrastructure Resilience
 
 ## 🌐 Framework Integration
 
-### Popular Integrations
-1. **Development Frameworks**
-   - Express.js
-   - Spring Boot
-   - Django
-   - FastAPI
-   - Laravel
+### Cloud Integration
+1. **AWS Integration**
+   - API Gateway
+   - Lambda Integration
+   - CloudWatch
+   - X-Ray
+   - WAF
 
-2. **Testing Tools**
-   - Contract Testing
-   - Performance Testing
-   - Security Testing
-   - Monitoring
-   - Analytics
+2. **Azure Integration**
+   - API Management
+   - Functions
+   - Application Insights
+   - Security Center
+   - Front Door
+
+3. **GCP Integration**
+   - Cloud Endpoints
+   - Cloud Functions
+   - Cloud Trace
+   - Security Command Center
+   - Cloud Armor
 
 ## 📦 Additional Resources
 
-### Development Tools
-- API Documentation
-- Mock Servers
-- Test Data Generators
-- Schema Validators
-- Security Scanners
+### Infrastructure Tools
+- API Gateways
+- Service Meshes
+- Container Platforms
+- Cloud Providers
+- Security Tools
+
+### Monitoring Tools
+- API Monitoring
+- Infrastructure Monitoring
+- Security Monitoring
+- Performance Monitoring
+- Cost Monitoring
 
 ### Community Resources
 - API Testing Forums
-- Developer Communities
+- Infrastructure Communities
+- Security Groups
+- Cloud Provider Communities
 - Technical Blogs
-- Research Papers
-- Conference Talks
 
-### Infrastructure
-1. **Cloud Services**
-   - API Gateway
-   - Load Balancers
-   - Monitoring Tools
-   - Analytics
-   - Security Services
-
-2. **Monitoring Tools**
-   - API Monitoring
-   - Performance Metrics
-   - Error Tracking
-   - Test Reports
-   - Analytics Dashboards
+---
+Last Updated: February 2025
